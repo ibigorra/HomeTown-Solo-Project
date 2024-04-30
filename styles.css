@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    text-align: center;
+    
+}
+
+#header {
+    max-width: 100%;
+    height: 400px;
+    background-image: url(./images/san\ antonio.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#head-title {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    width: 300px;
+    margin: 10px auto 10px;
+    
+
+}
+
+
+#head-subtitle {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    width: 400px;
+    margin: 20px auto;
+
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background: linear-gradient(#606E0D, #2e92eb);
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.activity-img {
+    display: block; 
+    width: 150px; 
+    height: 150px;
+    border: 1px;
+    border-radius: 50%;
+
+}
+
+#activities-title {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.activities-description {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 200px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.activity-lore {
+    width: 300px;
+    font-weight: 400;
+}
+
+
+#guide {
+    width: 400px;
+    margin: 50px auto 30px;
+    padding: 20px;
+    border: 3px none lightblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #47a4f0;
+    color: black;
+    border-bottom: 10px solid #1C73D4;
+    
+}
+
+#avatar {
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
